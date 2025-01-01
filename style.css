@@ -1,0 +1,510 @@
+
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* header */
+header {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    top: 10px;
+    background-color: #f06c00;
+    color: white;
+    justify-content: center;
+}
+
+/* navbar */
+.navbar {
+    border-bottom: 2px solid #f06c00;
+}
+
+.contact-info {
+    font-size: 14px;
+}
+
+.navbar-logo img {
+    height: 50px;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #f06c00;
+}
+
+.user-options {
+    justify-content: space-around;
+    gap: 18px;
+
+}
+
+/* mainproducts */
+.mainproducts {
+    height: 500px;
+    gap: 0px;
+}
+
+.product-highlight {
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('	https://klbtheme.com/medibazar/wp-content/uploads/2020/10/b-01.jpg');
+}
+
+.heading {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    line-height: 20px;
+}
+
+.heading .fw-bold {
+    font-size: 60px;
+}
+
+.discountoffer {
+    background-color: #ffeb3b;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 10px 15px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-now-btn {
+    background-color: #f06c00;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.buy-now-btn:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.side-product {
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sp1 {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://klbtheme.com/medibazar/wp-content/uploads/2020/10/b-02.jpg');
+
+}
+
+.side-product a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+
+}
+
+.side-product .sp1main {
+    text-align: left;
+    position: relative;
+    top: 20px;
+}
+
+.sp2 {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('https://klbtheme.com/medibazar/wp-content/uploads/2020/10/b-03.jpg');
+}
+
+.sp1main a {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.sideproduct {
+    position: relative;
+    left: -40px;
+}
+
+/* four cards */
+.card {
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    height: 100%;
+}
+
+.card.fast-delivery {
+    background: linear-gradient(135deg, #ff9800, #ff5722);
+}
+
+.card.coupon-savings {
+    background: linear-gradient(135deg, #4caf50, #8bc34a);
+}
+
+.card.custom-order {
+    background: linear-gradient(135deg, #3f51b5, #2196f3);
+}
+
+.card.female-care {
+    background: linear-gradient(135deg, #e91e63, #f06292);
+}
+
+.card .card-title {
+    font-size: 15px;
+}
+
+.cardmain {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+
+.card .btn {
+    background-color: white;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    font-size: 12px;
+}
+
+.card .btn:hover {
+    background-color: #f0f0f0;
+}
+
+.card p {
+    font-size: 13px;
+}
+
+
+
+/* message box */
+
+.messagebox {
+    padding-top: 15px;
+    border: 1px solid rgb(192, 185, 185);
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    text-align: center;
+}
+
+.step-circle {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f8e8c4;
+    border-radius: 50%;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.step:nth-child(2) .step-circle {
+    background-color: #cce5ff;
+}
+
+.step:nth-child(3) .step-circle {
+    background-color: #d4f8c4;
+}
+
+.step:nth-child(4) .step-circle {
+    background-color: #d8c4f8;
+}
+
+.step-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+/* banner */
+
+
+.banner {
+    padding: 1rem 1rem;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.discover-btn {
+    background-color: #00c4cc;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    text-decoration: none;
+    width: 150px;
+}
+
+.discover-btn:hover {
+    background-color: #00b1b9;
+    color: #fff;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.bannerbg {
+    padding-bottom: 50px;
+}
+
+.banner-text {
+    position: relative;
+    left: 30px;
+}
+
+/* 5cards products */
+
+
+#product1 .bg-image {
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+}
+
+#product1 .des {
+    text-align: center;
+}
+
+#product1 .details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#product1 .star i {
+    color: gold;
+}
+
+
+
+#product1 {
+    padding: 0%;
+    text-align: center;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#product1 .pro-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+#product1 .pro {
+    width: 250px;
+
+    border: 1px solid lavender;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0.2s ease;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+
+}
+
+#product1 .pro img {
+    width: 60%;
+    height: 200px;
+}
+
+
+#product1 .pro .des {
+    text-align: start;
+    text-align: center;
+}
+
+#product1 .pro .des span {
+    color: rgb(44, 101, 103);
+    font-size: 12px;
+}
+
+#product1 .pro .des h6 {
+    padding-top: 7px;
+    color: #222;
+    text-align: center;
+
+}
+
+
+#product1 .pro .des i {
+    font-size: 12px;
+    color: gold;
+}
+
+#product1 .pro .des h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: teal;
+}
+
+#product1 .pro .des p {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(148, 149, 149);
+    text-decoration: line-through;
+}
+
+
+#product1 .pro .btn {
+    font-weight: 500px;
+    color: rgb(245, 249, 245);
+    text-align: center;
+}
+
+#product1 .pro #new {
+    position: relative;
+    left: -100px;
+    top: 16px;
+    font-size: 10px;
+}
+
+
+#product1 .pro #per {
+    position: relative;
+    top: -3px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.details p {
+    position: relative;
+    top: 4px;
+}
+
+
+.stats-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.stats-row {
+    border-bottom: 2px solid #ff9800;
+    width: 80%;
+}
+
+.send-link-btn {
+    background-color: #f06c00;
+}
+
+.send-link-btn:hover {
+    background-color: #090909;
+}
+
+
+
+/* last section */
+.stats-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.stats-section h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.app-download input {
+    max-width: 300px;
+    margin-right: 10px;
+}
+
+/* footer */
+.footer {
+    padding: 40px 40px;
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #6c757d;
+}
+
+.social-icons i:hover {
+    color: #000;
+}
+
+.payment-icons img {
+    max-height: 40px;
+    margin: 5px;
+}
+
+.Copyright {
+    height: 50px;
+    width: 100%;
+    background-color: #f06c00;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+}
+
+.Copyright a {
+    color: whitesmoke;
+}

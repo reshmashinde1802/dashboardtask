@@ -1,0 +1,416 @@
+
+@media (max-width: 480px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+        max-width: 475px;
+    }
+
+    header p{
+        font-size: small;
+    } 
+    body {
+        overflow-x: hidden;
+        padding-left: 10px;
+    }
+    
+    .cardmain {
+        flex-direction: column;
+        text-align: center;
+        gap:60px;
+    }
+
+    .cardmain > div:last-child {
+        margin-bottom: 15px; 
+    }
+
+    .cardmain img {
+        margin: 0;
+        width: 80px;
+        height: 80px;
+    }
+
+    .mainproducts {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        position: relative;
+    }
+
+    .product-highlight {
+        width: 420px;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 20px 0px;
+        text-align: center;
+        height: 250px;
+    }
+
+    .heading {
+        position: static;
+        line-height: normal;
+    }
+
+    .oilproducts .heading h1 {
+        font-size: 30px;
+        position: relative;
+        left: 20px;
+        top: 40px;
+    }
+
+    .oilproducts .heading h2 {
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 40px;
+    }
+
+    .oilproducts .heading p {
+        font-size: 14px;
+        line-height: 1.5;
+        display: none;
+    }
+
+    .oilproducts .buy-now-btn {
+        padding: 10px 20px;
+        font-size: 10px;
+        position: relative;
+        top: 50px;
+    }
+
+    .discount {
+        position: static;
+    }
+
+    .discountoffer {
+        height: 60px;
+        width: 60px;
+        font-size: 14px;
+        position: relative;
+        top: -15px;
+        left: 45px;
+    }
+
+    .sideproduct {
+        position: static;
+        left: 0;
+    }
+
+    .side-product {
+        padding-left: 10px;
+        border-radius: 5px;
+    }
+
+    .sp1,
+    .sp2 {
+        height: 200px;
+    }
+
+    .sp1main h5,
+    .sp1main h3 {
+        font-size: 25px;
+        text-align: left;
+    }
+
+    .sp1main a {
+        font-size: 14px;
+    }
+
+    .banner-text .text-muted{
+        position: relative;
+        left: -30px;
+
+    }
+    .banner-text h2{
+        position: relative;
+        left: -30px;
+
+    }
+    .banner-text a{
+        position: relative;
+        left: 50px;
+    }
+   .app-download {
+    gap: 20px;
+   }
+   .footer{
+    text-align: center;
+   }
+
+   #product1 .pro-container{
+    gap: 20px;
+   }
+
+   #product1 .pro-container .pro{
+    padding-bottom: 10px;
+   }
+
+}
+
+
+@media (max-width: 320px) {
+    body{
+        padding-left: 8px;
+    }
+    header p{
+        font-size: small;
+    } 
+    .navbar .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .navbar .container .contact-info{
+        position: relative;
+        left: 10px;
+    }
+
+    .navbar-brand{
+        position: relative;
+        left: -15px;
+    }
+    .banner-text .discover-btn{
+        position: relative;
+        left: 15px;
+    }
+
+    .user-options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .Copyright{
+        padding-bottom:10px ;
+    }
+
+    .user-options i {
+        font-size: 18px;
+    }
+
+    .user-options .nav-link {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer{
+        margin-top: -40px;
+    }
+
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        padding-left: 5px;
+    }
+
+    header p {
+        font-size: small;
+    }
+
+    .navbar .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar .container .contact-info {
+        position: static;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .navbar-brand {
+        margin-bottom: 10px;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-text .text-muted {
+        position: static;
+    }
+
+    .banner-text h2 {
+        font-size: 28px;
+        position: static;
+    }
+
+    .banner-text a {
+        margin-top: 10px;
+    }
+
+    .user-options {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .user-options i {
+        font-size: 20px;
+    }
+
+    .user-options .nav-link {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .cardmain {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        top: 150px;
+    }
+
+    .cardmain img {
+        margin: 0;
+        width: 100px;
+        height: 100px;
+    }
+
+    .mainproducts {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .product-highlight {
+        width: 500px;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 5px 0px;
+        text-align: center;
+        height: 250px;
+        position: relative;
+        left: 100px; 
+        margin-bottom: 20px;
+    }
+
+   
+    .oilproducts .heading h1 {
+        font-size: 30px;
+        position: relative;
+        left: -70px;
+        top: -18px;
+    }
+
+    .oilproducts .heading h2 {
+        font-size: 20px;
+        position: relative;
+        left: -90px;
+        top: -20px;
+    }
+
+    .oilproducts .heading p {
+        font-size: 16px;
+        line-height: 1.5;
+        display: none;
+    }
+
+    .oilproducts .buy-now-btn {
+        padding: 10px 20px;
+        font-size: 10px;
+        position: relative;
+        top: -15px;
+        left: -90px;
+    }
+
+    .discountoffer {
+        height: 60px;
+        width: 60px;
+        font-size: 14px;
+        position: relative;
+        top: -10px;
+        left: 80px;
+    }
+
+    .sideproduct {
+        position: static;
+    }
+
+    .side-product {
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .sp1,
+    .sp2 {
+        height: 200px;
+    }
+
+
+    .sp1main h5,
+    .sp1main h3 {
+        font-size: 25px;
+        text-align: left;
+    }
+
+
+    .sp1main a {
+        font-size: 14px;
+    }
+
+    .footer {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #product1 .pro-container {
+        gap: 25px;
+    }
+
+    #product1 .pro-container .pro {
+        padding-bottom: 15px;
+    }
+
+    .cardmain {
+    text-align: center; 
+    padding: 15px; 
+    }
+
+    .cardmain p {
+        font-size: 0.9rem; 
+    }
+
+    .cardmain img {
+        height: 40px; 
+        width: 50px;
+        margin: 0 auto; 
+    }
+
+    .row.g-4 {
+        gap: 20px; 
+    }
+
+    
+    .row.g-4 {
+        display: flex; 
+        justify-content: center; 
+        flex-wrap: wrap; 
+    }
+
+    .col-md-3 {
+        flex: 0 0 45%; 
+        max-width: 45%;
+        display: flex;
+        justify-content: center; 
+    }
+    .messagebox {
+        position: relative;
+        top: 150px;
+    }
+
+    .banner{
+        position: relative;
+        top: 100px;
+    }
+
+    #product1{
+        position: relative;
+        top: 100px;
+    }
+    
+}
+
